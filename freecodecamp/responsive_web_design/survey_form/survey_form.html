@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Software Support Survey Form</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="mystyles.css">
+    <header>
+        <h1 id="title">Software Support Survey Form</h1>
+        <p id="description">Thank you for taking the time to participate in this survey.</p>
+    </header>
+    <main>
+        <div>
+            <form id="survey-form">
+                <div>
+                    <h3>Personal Details</h3>
+                </div>
+                <div>
+                    <label for="name" id="name-label">Name</label>
+                    <input type="text" name="name" required placeholder="Enter your name" id="name">
+                </div>
+                <div>
+                    <label for="phone number">Phone Number</label>
+                    <input type="tel" name="phone number" placeholder="Enter your phone number">
+                </div>
+                <div>
+                    <label for="email" id="email-label">Email Address</label>
+                    <input type="email" name="name" required placeholder="Enter your email" id="email">
+                </div>
+                <div>
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                </div>
+                <div>
+                    <label for="age" id="number-label">Age</label>
+                    <input type="number" min="18" max="99" id="number" placeholder="18">
+                </div>
+                <div>
+                    <label for="DOB">Date of Birth</label>
+                    <input type="date" name="DOB">
+                </div>
+                <div>
+                    <h3>Work Experience</h3>
+                </div>
+                <div>
+                    <label for="Work Experience">How many years have you been working?</label>
+                    <input type="radio" name="Work Experience" value="0-6 months">0-6 months
+                    <input type="radio" name="Work Experience" value="0-6 months">6-12 months
+                    <input type="radio" name="Work Experience" value="0-6 months">1-2 years
+                    <input type="radio" name="Work Experience" value="0-6 months">2-5 years
+                    <input type="radio" name="Work Experience" value="0-6 months">5-10 years
+                    <input type="radio" name="Work Experience" value="0-6 months">10 years and above
+                </div>
+                <div>
+                    <label for="previous-work-experience">What is your preferred work environment?</label>
+                    <select id="dropdown">
+                        <option disabled selected value="">Select an Option</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Sotware Development">Software Development</option>
+                        <option value="Management">Management</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="expertise">Which fields are your expertise? (Check all that apply)</label>
+                    <input type="checkbox" name="expertise" value="HTML5">HTML5
+                    <input type="checkbox" name="expertise" value="CSS3">CSS3
+                    <input type="checkbox" name="expertise" value="Javascript">Javascript
+                    <input type="checkbox" name="expertise" value="Python">Python
+                    <input type="checkbox" name="expertise" value="Ruby">Ruby
+                    <input type="checkbox" name="expertise" value="PHP">
+                    <input type="checkbox" name="expertise" value="Others">Others
+                </div>
+                <div>
+                    <label for="comments">Any comments or suggestions?</label>
+                    <textarea id="comments" placeholder="Enter your comment here.."></textarea>
+                </div>
+                <div>
+                    <input type="submit" id="submit">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
