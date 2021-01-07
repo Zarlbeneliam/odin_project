@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: 100%;
+
+}
+
+.header-container {
+    display: block;
+    margin: 20px;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: baseline;
+}
+
+.header-ul li{
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.header-ul li a{
+    text-decoration: none;
+}
+
+.header-ul li button{
+    background: rgb(126, 126, 212);
+    font-weight: 700;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+}
+
+main{
+    display: block;
+    margin: 20px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+
+.main input{
+    width: 40%;
+    line-height: 35px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: solid rgb(243, 235, 235);
+    outline-width: none;
+}
+
+.main ul{
+    display: flex;
+    padding: 30px;
+}
+
+.main ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.main ul li button{
+    width: 170px;
+    line-height: 3em;
+    border: none;
+    background: rgb(243, 235, 235);
+    font-size: 13px;
+    color: rgb(85, 85, 75);
+    border-radius: 2px;
+}
+main p{
+    font-size: 12px;
+}
+main p a{
+    padding: 0 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+footer{
+    display: block;
+    flex-wrap: wrap;
+    background: rgb(238, 231, 231);
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+footer p{
+    padding: 6px 0px 6px 20px;
+    color: rgb(85, 85, 75);
+    border-top: solid rgb(231, 224, 224);
+
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: rgb(85, 85, 75);
+    border-top: solid rgb(231, 224, 224);
+    padding: 6px 0px 6px 0px;
+    line-height: 35px;
+}
+
+.left{
+    display: flex;
+    margin-left: 20px;
+    list-style: none;
+    width: 60%;
+}
+
+.right{
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+    width: 40%;
+    justify-content: flex-end;
+}   
+
+.right li{
+    padding-left: 20px;
+}
+.left li{
+    padding-right: 20px;
+}
